@@ -1,0 +1,49 @@
+.title{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+     -fx-background-color: black;
+    -fx-font-family: "Arial";
+}
+
+.label{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Arial";
+}
+
+.button{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Arial";
+    -fx-background-color: darkslateblue;
+}
+
+.root{
+    -fx-background-color: lightblue;
+    -fx-background-color: linear-gradient(red,green,blue);
+
+}
+.root:hover{
+-fx-background-color: lightblue;
+-fx-transition:color 0.3s ease;
+}
+#one{
+    -fx-background-color:aqua;
+    -fx-color: red;
+    -fx-font-size:20px;
+     -fx-font-weight: bold;
+     -fx-padding-bottom:10px;
+     -fx-margin-bottom:20px;
+}
+#text2{
+    -fx-background-color:aqua;
+    -fx-font-color:black;
+     -fx-font-weight: bold;
+    -fx-font-size:20px;
+}
+.title{
+background-color:aqua;
+}
